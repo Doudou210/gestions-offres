@@ -1,70 +1,70 @@
 {
   "offresLists":[
     {
-      "id":1,
+      "id_offre":1,
       "titre": "Développeur Web Fullstack (React & Node.js)",
       "description": "Développer des fonctionnalités pour une plateforme e-commerce, en utilisant React pour le frontend et Node.js pour le backend.",
       "entreprise": "ShopTech",
       "lieu": "Paris, France"
     },
     {
-      "id":2,
+      "id_offre":2,
       "titre": "Ingénieur DevOps",
       "description": "Mise en place de pipelines CI/CD et gestion des environnements cloud (AWS, Docker, Kubernetes).",
       "entreprise": "CloudMaster",
       "lieu": "Lyon, France"
     },
     {
-      "id":3,
+      "id_offre":3,
       "titre": "Développeur Mobile React Native",
       "description": "Conception et maintenance d'applications mobiles cross-platform pour le secteur bancaire.",
       "entreprise": "FinTech Mobile",
       "lieu": "Genève, Suisse"
     },
     {
-      "id":4,
+      "id_offre":4,
       "titre": "Data Analyst",
       "description": "Analyse de données clients et optimisation des processus à partir d'analyses statistiques avancées.",
       "entreprise": "DataInsights",
       "lieu": "Bordeaux, France"
     },
     {
-      "id":5,
+      "id_offre":5,
       "titre": "Responsable Marketing Digital",
       "description": "Élaboration de stratégies digitales et optimisation des campagnes de publicité en ligne.",
       "entreprise": "MediaBoost",
       "lieu": "Marseille, France"
     },
     {
-      "id":6,
+      "id_offre":6,
       "titre": "Architecte Logiciel",
       "description": "Conception d'architectures logicielles évolutives pour des systèmes complexes en microservices.",
       "entreprise": "SoftBuilder",
       "lieu": "Montréal, Canada"
     },
     {
-      "id":7,
+      "id_offre":7,
       "titre": "Chef de Projet IT",
       "description": "Gestion des projets informatiques liés à la transformation digitale des processus métiers.",
       "entreprise": "InnovProject",
       "lieu": "Bruxelles, Belgique"
     },
     {
-      "id":8,
+      "id_offre":8,
       "titre": "Spécialiste Cybersécurité",
       "description": "Implémentation de politiques de sécurité des systèmes d’information et gestion des risques.",
       "entreprise": "SecureGuard",
       "lieu": "Berlin, Allemagne"
     },
     {
-      "id":9,
+      "id_offre":9,
       "titre": "Consultant Cloud",
       "description": "Migration d'infrastructures on-premise vers le cloud et optimisation des solutions cloud.",
       "entreprise": "Cloudify",
       "lieu": "Amsterdam, Pays-Bas"
     },
     {
-      "id":10,
+      "id_offre":10,
       "titre": "Designer UX/UI",
       "description": "Création de maquettes ergonomiques et intuitives pour améliorer l'expérience utilisateur des applications web et mobiles.",
       "entreprise": "UXperience",
