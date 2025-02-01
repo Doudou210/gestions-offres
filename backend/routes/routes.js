@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { home, loginUser } = require("../controlers/userControlers");
-const { createdUser } = require("../controlers/userControlers");
+const { home, loginUser, createdUser } = require("../controlers/userControlers");
 const { getAllOffres, offreById, addOffre } = require("../controlers/offreControlers");
 
 
@@ -12,7 +11,7 @@ router.get('/offres/:id_offres', offreById);
 router.post('/offres/add-offres', addOffre);
 
 //Users Router
-router.post("/creat_user", createdUser)
+router.post("/create_user", createdUser)
 router.post("/login", loginUser)
 
 module.exports = router
