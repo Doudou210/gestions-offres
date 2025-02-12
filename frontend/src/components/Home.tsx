@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <h1>Home Page</h1>
+      <h1 className="d-flex align-items-center justify-content-center vh-100">Home Page</h1>
       <button type="button" onClick={handleNav}>Auth User</button>
       <Footer/>
     </div>

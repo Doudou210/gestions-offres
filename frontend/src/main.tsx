@@ -13,7 +13,15 @@ const router = createBrowserRouter([
   {
     path:"/auth_user",
     element: <AuthUser/>
-  }
+  },
+  {
+    path:"/mes_offres",
+    element: <AuthUser/>
+  },
+  {
+    path:"/mes_favoris",
+    element: <AuthUser/>
+  },
 ])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
