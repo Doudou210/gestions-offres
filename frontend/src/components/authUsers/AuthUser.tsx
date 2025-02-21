@@ -1,14 +1,14 @@
 import React,{ useState } from "react";
 import "../../assets/css/AuthUser.css"
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export default function AuthUser() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLogin, setIsLogin] = useState(true);
-  const [message, setMessage] = useState("");
-  const navigate = useNavigate();
+  // const [message, setMessage] = useState("");
+  // const navigate = useNavigate();
 
   const handleSubmit = async (e:React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -48,10 +48,10 @@ export default function AuthUser() {
           onChange={(e) => setPassword(e.target.value)}
           className="auth-input"
         />
-        {message && <p className="auth-message">{message}</p>}
+        {/* {message && <p className="auth-message">{message}</p>} */}
           
         <button type="submit" className="auth-button">
-            {isLogin ? "Login" : "Register"}
+          {isLogin ? "Login" : "Register"}
         </button>
         {
           isLogin && (

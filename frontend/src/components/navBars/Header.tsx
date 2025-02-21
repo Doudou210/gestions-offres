@@ -25,7 +25,7 @@ export default function Header() {
               <Link to={"/mes_offres"} className="nav-link" >Offres</Link>
             </li>
             <li className="nav-item">
-              <Link to={"/mes_favoris"} className="nav-link"> Mes Favoris</Link>
+              {/* <Link to={"/mes_favoris"} className="nav-link"> Mes Favoris</Link> */}
             </li>
             <hr />
           </ul>

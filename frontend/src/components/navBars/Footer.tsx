@@ -10,9 +10,15 @@ export default function Footer() {
             <li>
               <LinkedIn/>
             </li>
-            <li><WhatsApp/></li>
-            <li><Instagram/></li>
-            <li><Facebook/></li>
+            <li>
+              <WhatsApp/>
+            </li>
+            <li>
+              <Instagram/>
+            </li>
+            <li>
+              <Facebook/>
+            </li>
           </ul>
         </div>
         <div>
