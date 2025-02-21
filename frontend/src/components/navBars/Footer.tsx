@@ -2,7 +2,7 @@ import { Facebook, Instagram, LinkedIn, WhatsApp } from '@mui/icons-material'
 
 export default function Footer() {
   return (
-    <div className='bg-primary-subtle p-4'>
+    <div className='navbar navbar-expand-lg bg-primary-subtle p-4'>
       <div className='container-fluid d-flex justify-content-between align-items-center'>
         <div>
           <h1>Logo & resS </h1>
