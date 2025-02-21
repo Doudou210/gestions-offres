@@ -1,5 +1,4 @@
 import { Facebook, Instagram, LinkedIn, WhatsApp } from '@mui/icons-material'
-import React from 'react'
 
 export default function Footer() {
   return (
