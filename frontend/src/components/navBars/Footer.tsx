@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className='bg-primary p-2 text-center mt-4 text-white'>Copy by DevCode</p>
+      <p className='bg-primary p-2 text-center mt-4 text-white'>Developed by DevCode</p>
     </div>
   )
 }
