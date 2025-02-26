@@ -35,15 +35,15 @@ export default function Footer() {
           </div>
           <div className='col-12 col-md-4 text-center text-md-start mb-4 mb-md-0'>
             <h1>NewsLetter</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Une fois par semaine, des histoires, des jobs et des conseils dans votre boite mail.</p>
             <div className='d-flex justify-content-center align-items-center'>
               <input type="email" id='email' placeholder='Email' />
               <button type="submit">S'inscrire</button>
             </div>
             <div className='d-flex align-items-center justify-content-center'>
               <p>
-                Vous pouvez vous désabonner à tout moment. On n'est pas susceptibles, promis. Pour en savoir plus sur notre politique de protection des données, 
-                <Link to={"/"}>cliquez-ici.</Link>
+                Vous pouvez vous désabonner à tout moment. On n'est pas susceptibles, promis. Pour en savoir plus sur notre politique de protection des données,  
+                <Link to={"/"}> cliquez-ici.</Link>
               </p>
             </div>
           </div>
