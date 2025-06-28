@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Header() {
+export default function aide() {
   return (
     <div>
-      <h1>Header</h1>
+      <h1>Aide-moi</h1>
     </div>
   )
 }
