@@ -1,8 +1,8 @@
-const express = require("express");
-const router = express.Router();
-const { home, loginUser, createdUser, updateUser, deleteUser } = require("../controlers/userControlers");
-const { getAllOffres, offreById, addOffre } = require("../controlers/offreControlers");
+import express from "express";
+import { home, loginUser, createdUser, updateUser, deleteUser } from "../controlers/userControlers";
+import { getAllOffres, offreById, addOffre } from "../controlers/offreControlers";
 
+const router = express.Router();
 
 //Offres Router
 router.get('/', home);
@@ -16,5 +16,4 @@ router.post("/login", loginUser);
 router.put("/update_user/:id", updateUser);
 router.delete("/delete_user/:id", deleteUser);
 
-
-module.exports = router
+export default router; 
